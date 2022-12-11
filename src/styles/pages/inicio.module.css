@@ -1,5 +1,5 @@
 .homeContainer {
-    padding: 10rem;
+    padding: 8rem;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -14,13 +14,13 @@
   .cardTitle {
   padding: 1rem;
   font-size: 2rem;
-  color: #474a51
+  color: #040c1c
   }
   
   .cardText {
   font-size: 1.2rem;
   align-items: center;
-  color: #474a51;
+  color: #040c1c;
   }
   
   @media(max-width: 765px) {

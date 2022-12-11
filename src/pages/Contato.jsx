@@ -26,17 +26,14 @@ export function Contato() {
   function createMessage(event) {
     event.preventDefault()
 
-    console.log('nome: ', nome)
-    console.log('email: ', email)
-    console.log('mensagem: ', mensagem)
 
-    //criando uma tabela de mensagens debtro do firebase
+    //criando uma tabela de mensagens dentro do firebase
     const mensagensListRef = ref(database, 'mensagens')
 
     //dentro da tabela de msg crie uma nova msg
     const novaMensagemRef = push(mensagensListRef)
 
-    // dizer oque vaiem cadamensagem
+    // dizer o que vai em cada mensagem
     set(novaMensagemRef, {
       nome: nome,
       email: email,
@@ -51,7 +48,8 @@ export function Contato() {
 
   return (
     <>
-      <Header text="Chama no contatinho" image={contatoImg} />
+      <Header text="Vamos trocar uma ideia?" image={contatoImg} />
+
       <div className={styles.formContainer}>
         <form onSubmit={createMessage} className={styles.form}>
           <input onChange={handleInputName} placeholder="Digite seu nome" className={styles.formInput} value={nome} />
