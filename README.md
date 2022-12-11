@@ -1,5 +1,5 @@
 Projeto React
-Neste projeto pude estudar, desenvolver habilidades técnicas e me apresentar enrriquecendo o meu portfolio
+Neste projeto pude estudar, desenvolver habilidades técnicas e me apresentar enriquecendo o meu portfolio
 Componentes e JSX
 Props
 State
