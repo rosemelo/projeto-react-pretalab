@@ -11,9 +11,9 @@ Rotas - react router dom<br/>
 Deploy e configuração para evitar o erro 404<br/>
 <br/><br/>
 
-ReactJS-framework web<br/>
-Vite-gerador de projeto de front-end<br/>
-npm-gerenciador de pacotes
+ReactJS-Framework web<br/>
+Vite-Gerador de projeto de front-end<br/>
+npm-Gerenciador de pacotes
 Firebase-Ferramenta realtime database para gravar as mensagens de contato<br/>
 Module CSS-Ferramenta para ter mais produtividade ao estilizar a aplicação<br/>
 Phosphor-Dependência com icones super legais<br/>
